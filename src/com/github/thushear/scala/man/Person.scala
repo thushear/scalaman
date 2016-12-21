@@ -51,6 +51,10 @@ object Person {
   def getEyeName=eyeNum
 
   def apply(name: String = "thushear", age: Int = 10): Person = new Person(name, age)
+
+
+
+
 }
 class Person(name:String = "thushear",age:Int = 10) extends HiTrait with MakeFriendsTrait with Cloneable with Serializable with Logger with Logged with CheckHandler with SignatureHandler
 {
